@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.containers{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    background-image: url(https://i.pinimg.com/564x/96/6e/e7/966ee7ccd1aa3873d6e4670b9d8d1c24.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.calculator{
+    width: 270px;
+    height: 380px;
+    background-color: rgb(151, 129, 102);
+    padding: 20px;
+    margin-top: 70px;
+    border-radius: 20px;
+}
+
+.input{
+    width: 100%;
+    height: 90px;
+   
+    
+}
+.inputs{
+    width: 100%;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+    font-size: 40px;
+    text-align: end;
+}
+.buttons{
+    width: 100%;
+    height: 50px;
+display: flex;
+gap: 10px;
+margin-bottom: 10px;
+}
+.btns{
+    flex: 1;
+   box-shadow: -2px -2px 4px inset white, 2px 2px 6px white;
+   background-color: rgb(191, 193, 182);
+   border: none;
+   border-radius: 6px;
+   color: white;
+
+}
+.buttonss{
+    width: 100%;
+    height: 50px;
+display: flex;
+margin-bottom: 10px;
+
+}
+.btnss{
+width: 68px;
+margin-right: 10px;
+box-shadow: -2px -2px 4px inset white, 2px 2px 6px white;
+background-color: rgb(191, 193, 182);
+border: none;
+border-radius: 6px;
+color: white;
+
+}
+.btnequal{
+    width: 150px;
+    box-shadow: -2px -2px 4px inset white, 2px 2px 6px white;
+    background-color: rgb(191, 193, 182);
+    border: none;
+     border-radius: 6px;
+     color: white;
+
+  
+}
+.btns:hover{
+    cursor: pointer;
+}
+.btnss:hover{
+    cursor: pointer;
+}
+.btnequal{
+    cursor: pointer;
+}
+
+@media screen and (max-width:400px){
+    .containers{
+        width: 400px;
+        height: 850px;
+    }
+    .calculator{
+        margin-top: 150px;
+    }
+}

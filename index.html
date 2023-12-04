@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="containers">
+        <div class="calculator">
+            <div class="input">
+              <input type="text" class="inputs" id="inputs">
+            </div>
+            <div class="buttons">
+                <button class="btns" onclick=" clearBox()">AC</button>
+                <button class="btns" onclick="RemoveLast()">&#9003;</button>
+                <button class="btns"  onclick="DisplayNumber('%')">%</button>
+                <button class="btns" onclick="DisplayNumber('/')">/</button>
+            </div>
+            <div class="buttons">
+                <button class="btns" onclick="DisplayNumber(7)">7</button>
+                <button class="btns" onclick="DisplayNumber(8)">8</button>
+                <button class="btns" onclick="DisplayNumber(9)">9</button>
+                <button class="btns" onclick="DisplayNumber('*')">&#xD7;</button>
+            </div>
+            <div class="buttons">
+                <button class="btns" onclick="DisplayNumber(4)" >4</button>
+                <button class="btns" onclick="DisplayNumber(5)">5</button>
+                <button class="btns" onclick="DisplayNumber(6)">6</button>
+                <button class="btns" onclick="DisplayNumber('-')">-</button>
+            </div>
+            <div class="buttons">
+                <button class="btns" onclick="DisplayNumber(1)">1</button>
+                <button class="btns" onclick="DisplayNumber(2)">2</button>
+                <button class="btns" onclick="DisplayNumber(3)">3</button>
+                <button class="btns" onclick="DisplayNumber('+')" >+</button>
+            </div>
+            <div class="buttonss">
+         
+                <button class="btnss"  onclick="DisplayNumber(0)" >0</button>
+                <button class="btnss" onclick="DisplayNumber('.')">.</button>
+                <button class=" btnequal" onclick="Evaluate()">=</button>
+              
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./scricpt.js"></script>
+</html>
